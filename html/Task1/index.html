@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            max-width: 0 auto;
+            padding: 0;
+        }
+
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 30pt;
+        }
+
+        /* navbar */
+        .header {
+            background-color: rgb(43, 43, 43);
+        }
+
+        .nav {
+            background-color: #ffffff30;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            margin-bottom: 50px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            font-size: 25pt;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .nav li {
+            float: left;
+        }
+
+        .nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .nav li a:hover {
+            background-color: #111111
+        }
+
+        .nav li a.active {
+            background-color: rgb(255, 105, 64);
+        }
+
+        /* profile */
+        .Profile {
+            margin-top: 100px;
+            width: 100%;
+            height: 250px;
+        }
+
+        .ProfileCenter {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            width: 100%;
+            height: 250px;
+        }
+
+
+        .ProfileCenter h1 {
+            font-size: 45pt;
+        }
+
+        .ProfileCenter p {
+            margin-top: -20px;
+            font-size: 25pt;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            color: rgb(255, 105, 64);
+            ;
+        }
+
+        /* About */
+        .TextHead {
+            font-size: 55pt;
+        }
+
+        .TextHead span {
+            color: rgb(255, 105, 64);
+            ;
+        }
+
+        .Text {
+            height: 500px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .TextBlock {
+            width: 250px;
+            border: 1px solid rgb(255, 105, 64);
+            border-radius: 5%;
+            margin: 10px;
+            padding: 20px;
+            background-color: #ffffff17;
+        }
+
+        .TextBlock h2 {
+            color: rgb(255, 105, 64);
+        }
+
+        .TextBlock article {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15pt;
+        }
+
+        .TextBlock p {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15pt;
+        }
+
+        /* Projects */
+        .Projects {
+            font-size: 25pt;
+        }
+
+        .Projects h1 {
+            color: rgb(255, 105, 64);
+        }
+
+        .Projects p {
+            text-align: center;
+            font-size: 25pt;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        /* Repositories */
+        .ImgBlock {
+            display: block;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .ImgBlock h1 {
+            font-size: 45pt;
+        }
+
+        .ImgBlock .imgLinks img {
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(21, 21, 21); color: #fff;">
+
+    <header id="home" class="header">
+        <!-- nav -->
+        <nav>
+            <ul class="nav">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- profile -->
+        <img class="Profile" src="https://www.svgrepo.com/show/335455/profile-default.svg" alt="">
+
+        <div class="ProfileCenter">
+            <h1>Ehab Magdob</h1>
+            <p>Full Stack Developer</p>
+        </div>
+    </header>
+
+    <hr>
+
+    <main>
+        <!-- About -->
+        <h1 id="about" class="TextHead">About <span>Me</span></h1>
+
+        <section class="Text">
+            <!-- Carrer -->
+            <div class="TextBlock">
+                <h2>Career</h2>
+                <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolore incidunt soluta
+                    modi,
+                    repudiandae dolorem consectetur sint molestiae, delectus nemo debitis architecto quae numquam
+                    expedita
+                    magnam tenetur quis impedit suscipit.</article>
+            </div>
+
+            <!-- Experience -->
+            <div class="TextBlock">
+                <h2>Experience</h2>
+                <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aperiam animi voluptatem? Quas et,
+                    adipisci
+                    nemo enim eius amet voluptate sed! Earum beatae nam rem, porro id excepturi quam perferendis.
+                </article>
+            </div>
+
+            <div class="TextBlock">
+                <h2>Education</h2>
+                <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta recusandae numquam nam possimus
+                    quo
+                    distinctio officiis aliquam magnam repellendus, mollitia modi illo cumque quaerat eius minima ad
+                    beatae
+                    obcaecati quibusdam!</article>
+            </div>
+
+            <div class="TextBlock">
+                <h2>Skills</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quidem soluta tenetur aperiam
+                    reprehenderit
+                    earum, omnis itaque repellat explicabo totam necessitatibus, cumque ipsam placeat dolores excepturi
+                    ducimus
+                    id delectus ad.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <article id="projects" class="Projects">
+            <h1>Projects</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, excepturi cumque? Et nihil
+                cupiditate
+                eius inventore, beatae illum ipsam ea id dolor impedit similique, quae expedita asperiores
+                laudantium
+                sit
+                architecto!</p>
+        </article>
+
+        <section class="ImgBlock">
+            <h1>Repositories</h1>
+            <div class="imgLinks">
+                <img src="./img/Screenshot 2025-11-23 131501.png" alt="">
+                <img src="./img/Screenshot 2024-05-10 181030.png" alt="">
+            </div>
+            <a href="">View More</a>
+
+        </section>
+
+    </main>
+    <hr>
+    <footer>
+        <h3>email</h3>
+        <a href="">ehabmj1212@gmail.com</a>
+
+        <h3>Download</h3>
+        <a href="">PDF</a>
+    </footer>
+</body>
+
+</html>
