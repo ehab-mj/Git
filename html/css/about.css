@@ -1,0 +1,44 @@
+    .TextHead {
+        font-size: 55pt;
+    }
+
+    .TextHead span {
+        color: rgb(255, 105, 64);
+        ;
+    }
+
+    .Text {
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .TextBlock {
+        width: 250px;
+        border: 1px solid rgb(255, 105, 64);
+        border-radius: 5%;
+        margin: 10px;
+        padding: 20px;
+        background-color: #ffffff17;
+    }
+
+    .TextBlock h2 {
+        color: rgb(255, 105, 64);
+    }
+
+    .TextBlock article {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15pt;
+    }
+
+    .TextBlock p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15pt;
+    }
+
+    .TextBlock article span {
+        color: rgb(255, 105, 64);
+        font-weight: bold;
+        font-size: 18pt;
+    }
