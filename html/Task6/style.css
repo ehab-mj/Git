@@ -1,0 +1,176 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(211, 211, 211);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 150rem;
+}
+
+header {
+    background-color: rgb(0, 26, 79);
+    position: sticky;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    color: #fff;
+}
+
+header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 30px;
+}
+
+.SideBar {
+    background-color: rgb(15, 42, 96);
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    text-align: center;
+}
+
+.SideBar::before {
+    content: "👜";
+    font-size: 56px;
+    text-align: center;
+}
+
+.SideBar .box {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    /* تبعد من فوق ومن تحت */
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    box-shadow: none;
+}
+
+
+.Relative1 {
+    background-color: #ffffff;
+    position: relative;
+    top: 100px;
+    z-index: -1;
+    padding: 20px;
+    width: 80%;
+    height: 200px;
+    left: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Relative1 h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Relative1 p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.Card1 {
+    background-color: bisque;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    padding: 30px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.4cm;
+}
+
+.Card1::before {
+    content: "🕵️";
+    font-size: 25px;
+}
+
+.Card1 h1 {
+    display: inline-block;
+    text-align: center;
+}
+
+/* //////////////////////////////////// */
+
+.Relative2 {
+    background-color: #ffffff;
+    position: relative;
+    top: 250px;
+    z-index: -1;
+    padding: 20px;
+    width: 80%;
+    height: 400px;
+    left: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Relative2 h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Relative2 p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.Card2 {
+    background-color: rgb(139, 224, 255);
+    position: relative;
+    top: 30px;
+    left: 50px;
+    padding: 0;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.4cm;
+}
+
+.Card2::before {
+    content: "📂";
+    font-size: 25px;
+}
+
+.Card3 {
+    background-color: rgb(253, 255, 114);
+    position: static;
+    margin-top: 100px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Card3 p {
+    text-align: center;
+    display: inline-block;
+    font-size: 10pt;
+}
+
+.Card4 {
+    background-color: rgb(255, 102, 133);
+    position: absolute;
+    top: -50px;
+    left: -20px;
+    font-size: 46px;
+    height: 80px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+
+.Card4::before {
+    content: "📍";
+    text-align: center;
+}

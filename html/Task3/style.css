@@ -1,0 +1,82 @@
+body {
+    background-color: azure;
+    height: 1000rem;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 120px;
+}
+
+.box {
+    width: 150px;
+    height: 50px;
+    color: #000000;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.menu {
+    background-color: rgb(226, 170, 98);
+    position: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 20px;
+    left: 0;
+    font-size: 25pt;
+    text-align: center;
+    border: 3px solid #000;
+    border-radius: 5cm;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Satellite {
+    background-color: rgb(132, 132, 132);
+    position: static;
+    left: 0;
+    font-size: 25pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: 3px solid #000;
+    border-radius: 5cm;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Planet {
+    background-color: aquamarine;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font-size: 25pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: 3px solid #000;
+    border-radius: 5cm;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.StickyNote {
+    background-color: beige;
+    position: sticky;
+    top: 0;
+    font-size: 20pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    border: 3px solid #000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5cm;
+}
+
+.Spaceship {
+    background-color: rgb(254, 254, 180);
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 5cm;
+    font-size: 25pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid #000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}

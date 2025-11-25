@@ -1,0 +1,56 @@
+.Agent {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Block {
+    position: relative;
+    left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+}
+
+.AllAgents li::before {
+    content: "🕶";
+    padding: 10px;
+}
+
+.AllAgents {
+    list-style: none;
+    font-size: 26px;
+    position: relative;
+    left: -30px;
+}
+
+.AllAgents li {
+    padding: 20px;
+    background-color: rgb(180, 244, 255);
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.AllAgents li:hover {
+    background-color: rgb(0, 158, 186);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.AllAgents li:nth-child(odd) {
+    background-color: rgb(66, 227, 255);
+    font-size: 26px;
+    padding: 20px;
+}
+
+.AllAgents li:nth-child(odd):hover {
+    background-color: rgb(0, 128, 150);
+}
+
+input[type="text"]:focus {
+    border: 5px solid rgb(255, 116, 255);
+    outline: none;
+}
+
+input[type="checkbox"]:checked {
+    border: 5px solid rgb(255, 116, 255);
+}

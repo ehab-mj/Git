@@ -1,0 +1,32 @@
+.menu li:first-child {
+    color: red;
+}
+
+.menu li:last-child {
+    color: blueviolet;
+    font-size: 18px;
+}
+
+/* بتخليني اختار انو المينت اعملو ستايل  */
+.menu li:nth-child(2) {
+    color: aqua;
+    font-size: 30px;
+}
+
+.menu li:nth-child(odd) {
+    background-color: chocolate;
+}
+
+input[type="text"]:focus {
+    border: 1px solid purple;
+    outline: none;
+}
+
+input[type="checkbox"]:checked+label {
+    color: red;
+    font-size: 30px;
+}
+
+a:visited {
+    color: palevioletred;
+}
