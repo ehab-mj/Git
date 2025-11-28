@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    /* اي ويدث بعملو بحسبلي البادينج لكلو */
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: antiquewhite;
+    border: 1px solid black;
+    margin: 10px auto;
+    width: 800px;
+    height: 750px;
+    /* فلكس يعني مرن */
+    /* flex box = father control the children */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    /* فليكس وراب بعطي كل واحد ويدث وبنزل اسطر */
+}
+
+.box1,
+.box2,
+.box3 {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: blueviolet;
+    align-self: flex-end;
+    flex-grow: 2;
+}
+
+.box3 {
+    background-color: chocolate;
+    flex-shrink: 2;
+    /* 2 ضعف المساحه  */
+
+}
