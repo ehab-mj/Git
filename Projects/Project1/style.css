@@ -571,6 +571,188 @@ hr {
     opacity: 50%;
 }
 
+/* price */
+.RedHeader {
+    background-color: crimson;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.PriceBox {
+    display: flex;
+}
+
+.RedDiscount {
+    font-size: 35pt;
+    font-weight: 300;
+    color: crimson;
+    letter-spacing: 10%;
+}
+
+.smallDollar {
+    font-size: 18pt;
+    margin-left: 10px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Price {
+    font-size: 35pt;
+    font-weight: 550;
+    letter-spacing: 10%;
+    margin-left: 8px;
+}
+
+.smallCent {
+    font-size: 18pt;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.ListPrice {
+    display: flex;
+    font-size: 16pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.ListPrice span {
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+.mark {
+    width: 25px;
+    opacity: 80%;
+    margin-top: 2px;
+}
+
+.FreeShiping {
+    display: flex;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424242;
+    margin-top: 10px;
+}
+
+.FreeShiping span {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+
+.PriceLink p {
+    display: flex;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.arrowDown {
+    display: flex;
+    align-items: baseline;
+    margin-left: 10px;
+    width: 20px;
+    margin-top: 2px;
+}
+
+.SavingBox {
+    font-size: 16pt;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #353535;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.SavingBox span {
+    background-color: rgb(65, 227, 67);
+    height: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.StyleTitle {
+    display: flex;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424242;
+    margin-top: 15px;
+}
+
+.StyleTitle span {
+    margin-left: 5px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.StyleContainer {
+    margin-left: -15px;
+    margin-top: 20px;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left; */
+}
+
+.StyleBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    font-size: 20pt;
+    padding: 10px;
+    gap: 20px;
+}
+
+.StyleBox .StyleTitle {
+    font-weight: bold;
+    margin-top: -1px;
+}
+
+/* .StyleBox .Box {
+    font-size: 20pt;
+} */
+
+.Box1,
+.Box2,
+.Box3 {
+    border: 1px solid black;
+    width: 30%;
+    height: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424242;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Box1 {}
+
+.Box2 {
+    background-color: rgb(32, 255, 233);
+}
+
+.Box3 {
+    background-color: rgb(58, 255, 134);
+}
+
 .item3 {
     grid-column: 4/5;
     grid-row: 1/5;
