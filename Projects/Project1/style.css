@@ -652,12 +652,14 @@ hr {
     font-weight: 550;
     letter-spacing: 10%;
     margin-left: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .smallCent {
     font-size: 18pt;
     font-weight: 600;
     margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .ListPrice {
@@ -828,18 +830,93 @@ table tr td .Title {
     margin-top: 20px;
 }
 
+/* Item3 */
+.item3 {
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.285);
+    grid-column: 4/5;
+    grid-row: 1/5;
+}
+
+.FreeShiping_2 {
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424242;
+    margin-top: 10px;
+}
+
+.FreeShiping_2 span {
+    font-weight: bold;
+}
+
 .Options {
     font-size: 15pt;
     margin-top: -1px;
     margin-bottom: 5px;
 }
 
-.item3 {
-    grid-column: 4/5;
-    grid-row: 1/5;
+.freeDelivery {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    margin-top: 10px;
+}
+
+.DeliverDate {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    margin-top: 50px;
+}
+
+.DeliverDate span {
+    font-weight: bold;
+}
+
+.LocationBox {
+    width: 100%;
+    height: 63px;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* .LocationBox span {
+    background-color: rgb(120, 120, 255);
+    width: 100px;
+    height: 30px;
+} */
+
+.LocationBox span img {
+    width: 30px;
+    height: 30px;
+    margin-right: -2px;
+}
+
+.LocationBox a {
+    font-size: 16pt;
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    color: rgb(18, 77, 240);
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.InStock {
+    font-size: 20pt;
+    margin-top: 25px;
+    color: rgb(47, 187, 50);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .item4 {
+    width: 50%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.285);
+    cursor: pointer;
     grid-column: 4/5;
     grid-row: 5/7;
 }
