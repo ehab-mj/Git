@@ -7,6 +7,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Header -->
+    <link rel="stylesheet" href="./css/header/UserInfo.css">
+    <link rel="stylesheet" href="./css/header/Menu.css">
+    <link rel="stylesheet" href="./css/header/MICRO.css">
+    <!-- Main -->
+    <link rel="stylesheet" href="./css/main/Category.css">
+
 </head>
 
 <body>
@@ -116,18 +124,23 @@
     <section class="grid-container">
         <section class="grid-item item1">
             <section class="Allphotos">
-                <section class="Bphotos1"></section>
-                <section class="Bphotos2"></section>
-                <section class="Bphotos3"></section>
-                <section class="Bphotos4"></section>
-                <section class="Bphotos5"></section>
-                <section class="Bphotos6"></section>
-                <section class="Bphotos7"></section>
+                <img src="./img/item/img1.jpg" class="Bphotos1" alt="itempic1">
+                <img src="./img/item/img2.jpg" class="Bphotos2" alt="itempic1">
+                <img src="./img/item/img3.jpg" class="Bphotos3" alt="itempic1">
+                <img src="./img/item/img4.jpg" class="Bphotos4" alt="itempic1">
+                <img src="./img/item/img5.jpg" class="Bphotos5" alt="itempic1">
+                <img src="./img/item/img6.jpg" class="Bphotos6" alt="itempic1">
+                <iframe class="Bphotos7" width="560" height="315"
+                    src="https://www.youtube.com/embed/f5vKxPA43lM?si=WQ_8SApDpknmcA9G" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
                 <section class="Bphotos8">
                     <a href="">Click to see full view</a>
                 </section>
             </section>
-            <img src="./img/item/71WH7jtyWpL._AC_SL1500_.jpg" alt="">
+            <img src="./img/item/img1.jpg" alt="BigPic">
         </section>
 
 
@@ -265,10 +278,10 @@
             <p class="FreeShiping_2">
                 $309.37 Import Charges & <span>FREE Shipping</span> to Palastine
             </p>
-            <a class="PriceLink" href="">
+            <a class="SidePriceLink" href="">
                 <p>
                     Details <span>
-                        <img class="arrowDown" src="./img/arrow-down-sign-to-navigate.png" alt="">
+                        <img class="SideArrowDown" src="./img/arrow-down-sign-to-navigate.png" alt="">
                     </span>
                 </p>
             </a>
@@ -280,43 +293,48 @@
             </p>
 
             <section class="LocationBox">
-                <span><img src="./img/location.png" alt=""></span>
+                <span>
+                    <img src="./img/location.png" alt=""></span>
                 <a href="">Deliver to Palastine</a>
             </section>
 
             <h3 class="InStock">In Stock</h3>
 
-            <section>
-                <p>Quantity: 1</p>
-                <span></span>
+            <section class="QuantityBox">
+                <section class="Quantity">
+                    <p>Quantity: 1</p>
+                    <span>
+                        <img src="./img/arrow-down-sign-to-navigate.png" alt="">
+                    </span>
+                </section>
+            </section>
+
+            <section class="Btns">
+                <button class="btn1">Add to Cart</button>
+                <button class="btn2">Add to Cart</button>
             </section>
 
             <section>
-                <button>Add to Cart</button>
-                <button>Add to Cart</button>
-            </section>
-
-            <section>
-                <table>
-                    <tr>
+                <table class="SideTable">
+                    <tr class="TableRow">
                         <th>Ships from</th>
                         <td>Amazon.com</td>
                     </tr>
-                    <tr>
+                    <tr class="TableRow">
                         <th>Sold by</th>
                         <td>Amazon.com</td>
                     </tr>
-                    <tr>
+                    <tr class="TableRow">
                         <th>Returns</th>
-                        <td>
+                        <td class="BorderHover">
                             <a href="">
                                 Returnable until Jan 31, 2026
                             </a>
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="TableRow">
                         <th>Payment</th>
-                        <td>
+                        <td class="BorderHover">
                             <a href="">
                                 Secure transaction
                             </a>
@@ -325,14 +343,47 @@
                 </table>
             </section>
 
-            <a href="">See more</a>
-            <input type="checkbox">
-            <p>Add a gift receipt for easy returns</p>
-            <hr>
+            <a class="SideSeeMore" href="">
+                <p>See more
+                    <span>
+                        <img class="SideArrowDown" src="./img/arrow-down-sign-to-navigate.png" alt="">
+                    </span>
+                </p>
+            </a>
+
+            <section class="CheckBox">
+                <input type="checkbox">
+                <p>Add a gift receipt for easy returns</p>
+                <hr>
+            </section>
             <button>Add to List</button>
 
         </section>
-        <section class="grid-item item4">4</section>
+        <section class="grid-item item4">
+            <img src="" alt="">
+            <p>Z-Edge 27 inch Curved Gaming...</p>
+            <section class="RatingContainer">
+                <section class="stars">
+                    <p>4.4</p>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </section>
+                <section class="ratings">
+                    <a href="">1,944</a>
+                </section>
+                <section>
+                    <p>
+                        <span>$</span>
+                        <span>159</span>
+                        <span>99</span>
+                    </p>
+                    <img class="primeLogo" src="" alt="">
+                </section>
+            </section>
+        </section>
         <section class="grid-item item5">5</section>
     </section>
 

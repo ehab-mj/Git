@@ -1,0 +1,32 @@
+.Category {
+    height: 50px;
+    display: flex;
+    margin-left: 11px;
+}
+
+.Category a {
+    text-decoration: none;
+}
+
+.Category ul {
+    display: flex;
+    height: 150px;
+    list-style-type: none;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13pt;
+    align-items: flex-end;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.Category ul li {
+    color: #0000009c;
+    padding: 10px;
+}
+
+.Category ul li span {
+    color: #0000009c;
+    width: 5px;
+    margin-left: 20px;
+}
