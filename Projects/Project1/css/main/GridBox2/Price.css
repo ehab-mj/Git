@@ -1,0 +1,217 @@
+/* price */
+.RedHeader {
+    background-color: crimson;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.PriceBox {
+    display: flex;
+}
+
+.RedDiscount {
+    margin-top: 10px;
+    font-size: 30pt;
+    font-weight: 350;
+    color: crimson;
+    letter-spacing: 15%;
+}
+
+.smallDollar {
+    font-size: 18pt;
+    margin-left: 10px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Price {
+    font-size: 35pt;
+    font-weight: 550;
+    letter-spacing: 10%;
+    margin-left: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.smallCent {
+    font-size: 18pt;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ListPrice {
+    display: flex;
+    font-size: 16pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.ListPrice span {
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+.mark {
+    width: 25px;
+    opacity: 80%;
+    margin-top: 2px;
+}
+
+.FreeShiping {
+    display: flex;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424242;
+    margin-top: 10px;
+}
+
+.FreeShiping span {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+
+.PriceLink p {
+    display: flex;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.arrowDown {
+    display: flex;
+    align-items: baseline;
+    margin-left: 10px;
+    width: 20px;
+    margin-top: 2px;
+}
+
+.StyleContainer {
+    margin-left: -15px;
+    margin-top: 20px;
+    width: 600px;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left; */
+}
+
+.SavingBox {
+    font-size: 16pt;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #353535;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.SavingBox span {
+    background-color: rgb(65, 227, 67);
+    height: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.StyleTitle {
+    display: flex;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.StyleTitle span {
+    margin-left: 5px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.StyleBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    font-size: 20pt;
+    padding: 10px;
+    gap: 20px;
+}
+
+.StyleBox .StyleTitle {
+    font-weight: bold;
+    margin-top: -1px;
+    margin-bottom: 5px;
+}
+
+.StylePrice {
+    display: flex;
+    font-size: 15pt;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #424242;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.StyleDiscount {
+    display: flex;
+    font-size: 13pt;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #424242;
+    text-decoration: line-through;
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+
+.Box1,
+.Box2,
+.Box3 {
+    border: 1px solid black;
+    width: 30%;
+    height: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424242;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.Box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Table */
+table {
+    font-size: 17pt;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+table tr td .Title {
+    font-weight: bold;
+    background-color: #f629e1;
+}
+
+.lastline {
+    margin-top: 20px;
+}

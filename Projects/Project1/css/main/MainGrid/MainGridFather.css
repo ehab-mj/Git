@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 2rem;
+    gap: 20px;
+    /* background-color: brown; */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.grid-item {
+    /* background-color: #474747; */
+    text-align: left;
+    padding: 2rem;
+    font-size: 3rem;
+    border: 1px solid black;
+}
