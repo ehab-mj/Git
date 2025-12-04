@@ -2,7 +2,7 @@
 .MICRO {
     background-color: #f629e1;
     width: 100%;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     height: 100px;
     object-fit: contain;
     cursor: pointer;
