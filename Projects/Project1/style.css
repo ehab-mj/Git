@@ -10,7 +10,8 @@ body {
 /* Box4 */
 .item4 {
     width: 50%;
-    margin-top: -2%;
+    height: 70%;
+    margin-top: -340px;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.285);
     cursor: pointer;
@@ -118,8 +119,9 @@ body {
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
+    padding: 20px;
     justify-content: flex-start;
-    height: 175%;
+    height: 125%;
     cursor: pointer;
     margin-top: -32px;
     margin-left: -32px;
