@@ -1,0 +1,94 @@
+/* Box4 */
+.item4 {
+    width: 50%;
+    height: 70%;
+    margin-top: -340px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.285);
+    cursor: pointer;
+    grid-column: 4/5;
+    grid-row: 5/7;
+}
+
+.item4 img {
+    background-color: pink;
+    width: 100%;
+}
+
+.SideItemTitle {
+    font-size: 20pt;
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+    font-weight: 600;
+}
+
+.SideRatingContainer {
+    display: flex;
+}
+
+.Sidestars {
+    height: 30px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    border-radius: 15px;
+    margin-left: -6px;
+}
+
+.Sidestars span {
+    font-size: 15pt;
+}
+
+.Sidechecked {
+    color: rgb(255, 94, 0);
+}
+
+.SideRatings {
+    width: 100%;
+}
+
+.SideRatings p {
+    margin-top: 8px;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424242;
+}
+
+.SideItemPrice {
+    height: 50px;
+}
+
+.SideItemPrice p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Side_smallDollar {
+    font-size: 14pt;
+    margin-left: 5px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Side_Price {
+    font-size: 20pt;
+    font-weight: 550;
+    margin-top: 10px;
+    letter-spacing: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Side_SmallCent {
+    font-size: 10pt;
+    font-weight: 600;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

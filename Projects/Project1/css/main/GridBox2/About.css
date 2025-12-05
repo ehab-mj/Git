@@ -17,7 +17,7 @@
 .AboutProduct {
     margin-top: 10px;
     cursor: pointer;
-    font-size: 18pt;
+    font-size: 15pt;
     color: rgb(18, 77, 240);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -39,8 +39,8 @@
 
 .ReportHead img {
     margin-top: 5px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .ReportProduct {
@@ -48,7 +48,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    font-size: 18pt;
+    font-size: 15pt;
     color: rgb(18, 77, 240);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
