@@ -1,0 +1,22 @@
+.BackToTop {
+    width: 100%;
+    height: 80px;
+    margin-top: 200px;
+    background-color: #314257;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.BackToTop:hover {
+    background-color: #37475A;
+}
+
+.BackToTop a {
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+}

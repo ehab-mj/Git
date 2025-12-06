@@ -1,0 +1,83 @@
+footer {
+    background-color: #232F3E;
+}
+
+.FooterBox {
+    background-color: #232F3E;
+    width: 50%;
+    height: 900px;
+    display: table;
+    margin: 0 auto;
+}
+
+.col {
+    display: table-cell;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    color: white;
+    padding: 16px;
+    padding-top: 100px;
+}
+
+.col h2 {
+    margin-bottom: 20px;
+}
+
+.col p {
+    font-weight: 100;
+    font-size: 16pt;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+.col p:hover {
+    text-decoration: underline;
+}
+
+/* Logo&Lang */
+
+.LogoALang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    gap: 50px;
+    margin-top: -5%;
+}
+
+.rowBox {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #c4c3c3;
+    padding: 1rem;
+    font-size: 16pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c4c3c3;
+    border-radius: 5px;
+}
+
+.rowIMG img {
+    width: 150px;
+    border: none;
+}
+
+.rowBox span {
+    font-weight: 700;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.rowBox input {
+    width: 20px;
+    margin-left: 20px;
+    background-color: #c4c3c3;
+}
+
+.EarthIcon {
+    width: 25px;
+}
+
+.LangFlag {
+    width: 45px;
+}
