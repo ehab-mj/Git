@@ -72,6 +72,10 @@ body {
     font-weight: 600;
 }
 
+.ProTitle:hover {
+    text-decoration: underline;
+}
+
 .Pro_BlackBox {
     background-color: #2f2f2f;
     color: #fff;
