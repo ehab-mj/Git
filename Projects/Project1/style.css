@@ -106,8 +106,15 @@ footer {
     background-color: #c4c3c3;
 }
 
-/* FooterBox */
+.EarthIcon {
+    width: 25px;
+}
 
+.LangFlag {
+    width: 45px;
+}
+
+/* FooterBox */
 .Footer_2 {
     background-color: #131A22;
 }
