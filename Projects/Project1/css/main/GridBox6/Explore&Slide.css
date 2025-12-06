@@ -1,0 +1,75 @@
+/* ExploreAsus&PagesSlide */
+.ExploreFather {
+    position: absolute;
+}
+
+.ExploreASUS {
+    font-size: 20pt;
+    position: relative;
+    left: -30px;
+    top: -30px;
+    width: 450px;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.PageCount {
+    position: absolute;
+    width: 87%;
+}
+
+.PageCount p {
+    font-size: 15pt;
+    position: relative;
+    left: 0;
+    top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.SlideLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SlideLeft:hover {
+    cursor: pointer;
+}
+
+.SlideLeft p {
+    font-size: 30pt;
+    width: 55px;
+    height: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(78, 78, 78, 0.589);
+    border-radius: 15px;
+}
+
+.SlideRight {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.SlideRight:hover {
+    cursor: pointer;
+}
+
+.SlideRight p {
+    font-size: 30pt;
+    width: 55px;
+    height: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(78, 78, 78, 0.589);
+    border-radius: 15px;
+}
