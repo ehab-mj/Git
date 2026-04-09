@@ -24,7 +24,7 @@ body,
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 button,

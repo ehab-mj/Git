@@ -358,6 +358,32 @@
     }
 
     .calendar-provider-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+    }
+
+    .calendar-provider-card__name {
+        font-size: 18px;
+    }
+
+    .calendar-provider-card__address {
+        font-size: 13px;
+    }
+
+    .calendar-provider-card__image {
+        height: 140px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .calendar-provider-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 20px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .calendar-provider-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 }
