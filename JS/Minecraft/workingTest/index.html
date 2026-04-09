@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="landing">
+        <h1>2D Minecraft</h1>
+        <p>Mine blocks, collect them, and build your own world!</p>
+        <button id="startBtn">Start Game</button>
+    </section>
+
+    <section id="game" class="hidden">
+        <section id="World"></section>
+
+        <section class="Tools">
+            <button id="Axe">🪓 Axe</button> <!-- wood-->
+            <button id="Pickaxe">⛏ Pickaxe</button><!-- Rocks-->
+            <button id="Shovel">🧹 Shovel</button><!-- Dirt-->
+        </section>
+
+        <section class="material">
+            <div id="Grass">Grass</div>
+            <div id="Dirt">Dirt</div>
+            <div id="Rock">Rock</div>
+            <div id="Wood">wood</div>
+        </section>
+
+        <button id="resetBtn">Reset</button>
+    </section>
+
+
+    <script src="./js/world.js"></script>
+    <script src="./js/tools.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/inventory.js"></script>
+</body>
+
+</html>

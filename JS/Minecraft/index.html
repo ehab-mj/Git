@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <div class="side-menu">
+            <div>
+                <h3>Map Size</h3>
+                <input id="mapSize" type="number" value="12" min="5" max="32">
+                <button onclick="createWorld()">Create World</button>
+            </div>
+
+            <div id="tools">
+                <h3>Tools</h3>
+                <button data-tool="shovel" onclick="selectTool('shovel')">⛏️ Shovel</button>
+                <button data-tool="axe" onclick="selectTool('axe')">🪓 Axe</button>
+                <button data-tool="pickaxe" onclick="selectTool('pickaxe')">⛏️ Pickaxe</button>
+                <button data-tool="build" onclick="selectTool('build')">🧱 Build</button>
+            </div>
+
+            <div id="inventory">
+                <h3>Inventory</h3>
+                Dirt: <span id="dirtCount">0</span><br>
+                Wood: <span id="woodCount">0</span><br>
+                Stone: <span id="stoneCount">0</span>
+            </div>
+        </div>
+
+        <div id="world"></div>
+    </div>
+    </div>
+    <script src="minecraft.js"></script>
+</body>
+
+</html>

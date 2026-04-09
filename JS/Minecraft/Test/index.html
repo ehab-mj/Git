@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>2D Minecraft</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="landing">
+        <h1>2D Minecraft Game</h1>
+        <p>This is a simplified 2D version of Minecraft. You can select tools to remove blocks from the world and add
+            them
+            to your inventory. Then, select items from your inventory to place them back in the world. Use the axe for
+            trees, pickaxe for rocks, and shovel for dirt. Grass can be removed with any tool.</p>
+        <p>How to play:</p>
+        <ul>
+            <li>Click a tool to select it.</li>
+            <li>Click a tile in the world to remove it (if the tool matches).</li>
+            <li>Click an item in the inventory to select it.</li>
+            <li>Click an empty tile in the world to place it.</li>
+            <li>Use the reset button to restore the world.</li>
+        </ul>
+        <button id="start">Start Game</button>
+    </div>
+
+    <div id="game">
+        <div id="world"></div>
+        <div id="tools">
+            <div class="tool" data-tool="axe">🪓 Axe</div>
+            <div class="tool" data-tool="pickaxe">⛏ Pickaxe</div>
+            <div class="tool" data-tool="shovel">🧹 Shovel</div>
+        </div>
+        <div id="inventory"></div>
+        <button id="reset">Reset</button>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
